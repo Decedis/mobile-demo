@@ -1,0 +1,97 @@
+.banner {
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    height: 160px;
+    
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 1rem;
+    width: 80%;
+    margin: 2rem auto 2rem;
+}
+.banner p {
+    margin: 0;
+    text-decoration: underline;
+}
+
+
+.user-tools {
+    max-width: 70%;
+    margin: 0 auto 2rem;
+}
+.fa-user {
+    border: 1px solid black;
+    padding: 1.25rem;
+    border-radius: 5px;
+}
+.fa-user:hover {
+    cursor: pointer;
+}
+ul li {
+    margin-right: 1rem;
+}
+ul li:hover { cursor: pointer; }
+.search-bar {
+    margin: 0 auto;
+    max-width: 70%;
+    border-radius: 5px;
+}
+.search-bar .search-input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+.fas .fa-search { font-size: 1.35rem; }
+.feed-container {
+    margin: 2rem auto;
+    width: 332px;
+}
+.feed {
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0 auto;
+}
+.feed .card-template {
+    min-width: 6.25rem;
+    min-height: 6.25rem;
+    max-width: 6.25rem;
+    max-height: 6.25rem;
+    background-color: black;
+    border-radius: 5px;
+
+    position: relative;
+}
+.card-template .card-info {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 6px;
+    transition: 0.4s;
+    opacity: 0;
+    opacity: 0;
+    border-radius: 8px;
+}
+.card-template .card-info * { 
+    font-size: 1rem;
+    margin: 0;
+    padding: 0.135rem;
+}
+.card-template:hover .card-info {
+    opacity: 1;
+    z-index: 5;
+    bottom: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    height: 2.5rem;
+    padding: 2rem 0 2rem;
+
+    width: 100%
+}
